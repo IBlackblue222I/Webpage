@@ -1,4 +1,2 @@
 # WEBPAGE
-My website
-Done with HTML, CSS and Javascript
-UNOPTIMIZED
+My website, done with HTML, CSS and Javascript -UNOPTIMIZED-
