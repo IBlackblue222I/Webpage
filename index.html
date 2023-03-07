@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blackblue's Webpage</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" href="index_style.css">
+		<script src="gJavascript.js"></script>
+		<link rel="icon" href="Wixlogo.jpg" />
+	</head>
+	<body>
+		<ul>
+			<li><button onclick="goToNWP()">Visit the Non-Web Project's page</button></li>
+			<li><button onclick="goToCode()">Navigate in files</button></li>
+			<li></li>
+		</ul>
+		
+		<div id="articles">
+			<table>
+				<tr>
+					<h3 class="aTitle">A little calculator using HTML, CSS and Javascript:</h3>
+				</tr>
+				
+				<tr>
+				
+					<table class="calcTable">
+						<thead>
+							
+							<tr>
+								<th colspan="3" class="calcTable"><p id="calcAns">__</input></th>
+								<td class="calcTable"><button id="calcDivide" onclick="Divide()">/</button></td>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr class="calcTable">
+								<td class="calcTable"><button id="calc7" onclick="Nb7()">7</button></td>
+								<td class="calcTable"><button id="calc8" onclick="Nb8()">8</button></td>
+								<td class="calcTable"><button id="calc9" onclick="Nb9()">9</button></td>
+								<td class="calcTable"><button id="calcAdd" onclick="Add()">+</button></td>
+							</tr>
+							<tr class="calcTable">
+								<td class="calcTable"><button id="calc4" onclick="Nb4()">4</button></td>
+								<td class="calcTable"><button id="calc5" onclick="Nb5()">5</button></td>
+								<td class="calcTable"><button id="calc6" onclick="Nb6()">6</button></td>
+								<td class="calcTable"><button id="calcMinus" onclick="Minus()">-</button></td>
+							</tr>
+							<tr class="calcTable">
+								<td class="calcTable"><button id="calc1" onclick="Nb1()">1</button></td>
+								<td class="calcTable"><button id="calc2" onclick="Nb2()">2</button></td>
+								<td class="calcTable"><button id="calc3" onclick="Nb3()">3</button></td>
+								<td class="calcTable"><button id="calcMul" onclick="Multiply()">x</button></td>
+							</tr>
+							<tr class="calcTable">
+								<td class="calcTable"><button id="calc0" onclick="Nb0()">0</button></td>
+								<td class="calcTable"><button id="calcC" onclick="C()">C</button></td>
+								<td class="calcTable"><button id="calcFloat" onclick="Power()">^</button></td>
+								<td class="calcTable"><button id="calcEq" onclick="Calc()">=</button></td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</tr>
+				
+				<tr>
+					<p class="cutArticle">------------------------------------------------------</p>
+				</tr>
+					
+				<tr>
+					<h3 class="aTitle">Future project:</h3>
+				</tr>
+				
+				
+			</table>
+		</div>
+		
+	</body>
+</html>

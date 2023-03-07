@@ -1,0 +1,79 @@
+body {
+	background-color: #dcdcdc;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li button {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+	background-color: black;
+}
+
+li button:hover {
+	background-color: skyblue;
+}
+
+
+
+#articles { 
+	margin: auto;
+	width: 50 px;
+	position: relative;
+	margin: 0% 40%;
+}
+
+.aTitle {
+	font-size: x-large;
+	color: dark;
+}
+
+.calcTable {
+	border: medium solid #000000;
+	font-size: xx-large;
+	background-color:skyblue;
+}
+
+.calcTable button {
+	display: flex;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: skyblue;
+	padding: 18px 23px;
+}
+
+.calcTable button:hover {
+	background-color: cornflowerblue;
+}
+
+.calcTable input {
+	color: white;
+	text-align: left;
+	font-size:medium;
+}
+
+.calcTable p {
+	color: white;
+	text-align: left;
+	font-size:medium;
+}
+
+.cutArticle {
+	color: blue;
+}
+
+
