@@ -70,6 +70,11 @@ function Divide(){
 	toOldAnswer()
 }
 
+function Floating(){
+	operation = "Floating"
+	toOldAnswer()
+}
+
 function Calc(){
 	var rchaine = result.toString();
 	lastAnswer = Number(lastAnswer)
@@ -96,6 +101,11 @@ function Calc(){
 	
 	else if (operation == "Power" && lastAnswer != NaN) {
 			rchaine = lastAnswer ** result;
+			rchaine.toString();
+	}
+	
+	else if (operation == "Floating" && lastAnswer != NaN) {
+			rchaine = lastAnswer.toString() + "." + result.toString();
 			rchaine.toString();
 	}
 	
