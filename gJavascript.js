@@ -33,105 +33,17 @@ function toOldAnswer() {
 	result = "";
 }
 
-function Nb0() {
+function Nb(x) {
 	if (lastAnswer != NaN) {
-		result += "0";
+		result += x.toString();
 		Eq(result);
 	} else {
-		lastAnswer += "0";
+		lastAnswer += x.toString();
 		Eq(lastAnswer);
 	}
 }
 
-function Nb1() {
-	if (lastAnswer != NaN) {
-		result += "1";
-		Eq(result);
-	} else {
-		lastAnswer += "1";
-		Eq(lastAnswer);
-	}
-}
 
-function Nb2() {
-	if (lastAnswer != NaN) {
-		result += "2";
-		Eq(result);
-	} else {
-		lastAnswer += "2";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb3() {
-	if (lastAnswer != NaN) {
-		result += "3";
-		Eq(result);
-	} else {
-		lastAnswer += "3";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb4() {
-	if (lastAnswer != NaN) {
-		result += "4";
-		Eq(result);
-	} else {
-		lastAnswer += "4";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb5() {
-	if (lastAnswer != NaN) {
-		result += "5";
-		Eq(result);
-	} else {
-		lastAnswer += "5";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb6() {
-	if (lastAnswer != NaN) {
-		result += "6";
-		Eq(result);
-	} else {
-		lastAnswer += "6";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb7() {
-	if (lastAnswer != NaN) {
-		result += "7";
-		Eq(result);
-	} else {
-		lastAnswer += "7";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb8() {
-	if (lastAnswer != NaN) {
-		result += "8";
-		Eq(result);
-	} else {
-		lastAnswer += "8";
-		Eq(lastAnswer);
-	}
-}
-
-function Nb9() {
-	if (lastAnswer != NaN) {
-		result += "9";
-		Eq(result);
-	} else {
-		lastAnswer += "9";
-		Eq(lastAnswer);
-	}
-}
 
 function Power() {
 	operation = "Power"
